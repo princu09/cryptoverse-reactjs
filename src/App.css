@@ -286,6 +286,7 @@ a:hover {
   display: flex !important;
   gap: 20px !important;
   align-items: center !important;
+  justify-content: center !important;
   flex-wrap: wrap !important;
 }
 .price-change {
