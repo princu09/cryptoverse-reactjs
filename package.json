@@ -2,6 +2,7 @@
   "name": "cryptoverse",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://princu09.github.io/cryptoverse-reactjs",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@reduxjs/toolkit": "^1.8.1",
@@ -11,6 +12,7 @@
     "antd": "^4.20.4",
     "axios": "^0.27.2",
     "chart.js": "^3.7.1",
+    "gh-pages": "^4.0.0",
     "html-react-parser": "^1.4.12",
     "millify": "^4.0.0",
     "moment": "^2.29.3",
@@ -21,13 +23,16 @@
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
